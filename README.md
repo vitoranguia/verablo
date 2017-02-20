@@ -1,2 +1,2 @@
 # Verify-Ad-Blocking
-Verificar o bloquei de anúncios
+Verificar o bloqueio de anúncios. Saiba mais em https://developers.vitortec.com/script/verifyadblocking/
