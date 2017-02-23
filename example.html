@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +9,7 @@
     <meta name="description" content="Verify Ad Blocking | Vitortec.com">
     <title>Verify Ad Blocking | Vitortec.com</title>
 
-    <script src="js/ad.js"></script>
+    <script src="js/ads.js"></script>
   </head>
   <body>
     <noscript>
@@ -18,8 +18,16 @@
      instructions how to enable JavaScript in your web browser</a>.
     </noscript>
 
+    <!-- Verify Ad Blocking -->
     <p id="alert"></p>
+    <script>
+    if ( typeof ads == "undefined" ) {
+        msg = "Ad was blocked!";
+    } else {
+        msg = "Ad was not blocked!";
+    }
+    document.getElementById("alert").innerHTML = msg;
+    </script>
 
-    <script src="js/check.js"></script>
   </body>
 </html>
