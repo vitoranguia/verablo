@@ -1,33 +1,40 @@
-<!DOCTYPE html>
+<!--
+Verablo - VERify Ad BLOcking
+Copyright 2017-2019 Vitor Guia
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Language" content="pt-br">
-    <meta name="author" content="Verify Ad Blocking - Vitortec.com">	
-    <meta name="description" content="Verify Ad Blocking | Vitortec.com">
-    <title>Verify Ad Blocking | Vitortec.com</title>
-
+    <title>Vitortec.com Verify Ad Blocking</title>
     <script src="ads/ads.js"></script>
   </head>
   <body>
+    <!-- Verify JavaScript -->
     <noscript>
-     For full functionality of this site it is necessary to enable JavaScript.
-     Here are the <a href="http://www.enable-javascript.com/" target="_blank">
-     instructions how to enable JavaScript in your web browser</a>.
+      For full functionality of this site it is necessary to enable JavaScript.
+      Here are the <a href="http://www.enable-javascript.com/" target="_blank">
+      instructions how to enable JavaScript in your web browser</a>.
     </noscript>
 
     <!-- Verify Ad Blocking -->
-    <p id="alert"></p>
+    <p id="alert">Ad was not blocked!</p>
     <script>
-    if ( typeof ads == "undefined" ) {
-        msg = "Ad was blocked!";
-    } else {
-        msg = "Ad was not blocked!";
-    }
-    document.getElementById("alert").innerHTML = msg;
+      if ( typeof ads == 'undefined' ) {
+        document.getElementById('alert').innerHTML = 'Ad was blocked!';
+      }
     </script>
-
   </body>
 </html>
