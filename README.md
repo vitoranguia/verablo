@@ -1,6 +1,6 @@
 # Verablo
 
-[![Software License](https://img.shields.io/github/license/vitorteccom/Verify-Ad-Blocking.svg)](LICENSE)
+[![Software License](https://img.shields.io/github/license/vitoranguia/verablo.svg)](LICENSE)
 
 > VERify Ad BLOcking
 
@@ -10,7 +10,7 @@ This package is compatible with [StandardJS](https://github.com/standard/standar
 
 ## Contributing
 
-Pull Requests not accepted, please contact us at: `contato@vitortec.com`.
+Pull Requests not accepted, please contact us at: `vitor.guia@vitortec.com`.
 
 ### Contributors
 
