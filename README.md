@@ -10,7 +10,7 @@ This package is compatible with [StandardJS](https://github.com/standard/standar
 
 ## Contributing
 
-Pull Requests not accepted, please contact us at: `vitor.guia@vitortec.com`.
+Pull Requests not accepted, please contact me at: `vitor.guia@vitortec.com`.
 
 ### Contributors
 
