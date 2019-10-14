@@ -1,5 +1,5 @@
 /**
- * @source: https://notabug.org/vitoranguia/verablo
+ * @source: https://gitlab.com/vitoranguia/verablo
  *
  * @licstart  The following is the entire license notice for the
  * JavaScript code in this page.
@@ -27,7 +27,7 @@
  * @author    Vitor Guia <contato@vitor.guia.nom.br>
  * @copyright 2017-2019 Vitor Guia
  * @license   http://www.apache.org/licenses/LICENSE-2.0
- * @see       https://notabug.org/vitoranguia/verablo Repository of Verablo
+ * @see       https://gitlab.com/vitoranguia/verablo Repository of Verablo
  */
 
 let ads = true
