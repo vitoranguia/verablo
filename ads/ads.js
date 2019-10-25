@@ -1,6 +1,4 @@
 /**
- * @source: https://gitlab.com/vitoranguia/verablo
- *
  * @licstart  The following is the entire license notice for the
  * JavaScript code in this page.
  *
@@ -21,13 +19,6 @@
  *
  * @licend  The above is the entire license notice
  * for the JavaScript code in this page.
- *
- * ECMAScript version 6
- *
- * @author    Vitor Guia <contato@vitor.guia.nom.br>
- * @copyright 2017-2019 Vitor Guia
- * @license   http://www.apache.org/licenses/LICENSE-2.0
- * @see       https://gitlab.com/vitoranguia/verablo Repository of Verablo
  */
 
 let ads = true
